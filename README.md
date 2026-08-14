@@ -13,7 +13,6 @@ Nogueira, R., & Cho, K. (2019).
 The original work applies BERT to re-rank passages retrieved by an initial retrieval system such as BM25.
 
 # Pipeline
-## Pipeline
 
 ```text
 Query
@@ -29,6 +28,7 @@ Relevance Score
 Ranking
   ↓
 MRR@10
+'''
 
 # Dataset
 
