@@ -28,11 +28,10 @@ Relevance Score
 Ranking
   ↓
 MRR@10
-```text
+```
 
-
-# Dataset
-
+# Data Set
+ 
 This implementation uses the MS MARCO dataset, version 1.1, loaded through the Hugging Face Datasets library.
 
 The dataset contains natural-language queries paired with candidate passages and relevance labels.
@@ -133,7 +132,7 @@ Paper vs Implementation comparison
 Experiment Configuration
 Results Dashboard
 
-**Important: ** These values should not be interpreted as a direct apples-to-apples comparison. Our implementation differs from the original experimental setup in model size, training budget, dataset processing, and other implementation details. The comparison is provided as a reference point rather than a claim of superiority.
+>Important:  These values should not be interpreted as a direct apples-to-apples comparison. Our implementation differs from the original experimental setup in model size, training budget, dataset processing, and other implementation details. The comparison is provided as a reference point rather than a claim of superiority.
 
 # Limitations
 
@@ -152,7 +151,7 @@ The complete original BM25 Top-1000 candidate-generation protocol is not reprodu
 Consequently, the reported MRR@10 should be interpreted as an implementation result rather than a direct replication result.
 
 # Repository Structure
-
+```text
 passage-reranking-with-bert/
 │
 ├── README.md
@@ -165,7 +164,7 @@ passage-reranking-with-bert/
     ├── paper_comparison.png
     ├── experiment_configuration.csv
     └── results.json
-
+```
 
 # Future Research
 
@@ -190,12 +189,11 @@ These directions are intentionally kept separate from the current reimplementati
 # Citation
 
 If you use this repository, please cite the original work:
-@article{nogueira2019passage,
-  title={Passage Re-ranking with BERT},
-  author={Nogueira, Rodrigo and Cho, Kyunghyun},
-  journal={arXiv preprint arXiv:1901.04085},
-  year={2019}
-}
+
+  Passage Re-ranking with BERT
+   Nogueira, Rodrigo and Cho, Kyunghyun,2019
+  
+  journal: arXiv preprint arXiv:1901.04085
 
 # License
 
